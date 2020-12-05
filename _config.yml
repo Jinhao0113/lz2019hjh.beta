@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Your Title
-subtitle: This is hexo theme
-author: Your Name
-language: en
+title: 'lz2019hjh Blog'
+subtitle: '胡锦浩的博客 | lz2019hjh Blog'
+author: lz2019hjh
+language: zh-cn
 timezone:
 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite-url      # Note: don't forget to modify the CNAME file to your url
+url: https://lz2019hjh.gitee.io      # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -29,16 +29,16 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: either thin | or die
-email: hexo-theme-livemylife@gmail.com
-description: "It's an IT blog..."
-keyword: "v-vincen,v-vincen,livemylife,IT  blog,Blog"
+SEOTitle: '明天要做更好的自己'
+email: lz2019hjh@outlook.com
+description: '明天要做更好的自己'
+keyword: "blog,Blog,lz2019hjh,胡锦浩"
 header-img: img/header_img/newhome_bg.jpg
 archives-img: img/header_img/archive_bg2.jpg
 
 
 # Favicon settings
-favicon: img/avatar/roguerabbit.jpg
+favicon: img/avatar/lz2019hjh.png
 
 
 # Signature Setup
@@ -52,18 +52,18 @@ wave: true
 
 # SNS Settings
 # RSS: true
-github_username: V-Vincen
-twitter_username: V_Vincen_
-instagram_username: v_vincen_
+github_username: lz2019hjh
+# twitter_username: V_Vincen_
+# instagram_username: v_vincen_
 # facebook_username:  yourAccount
 # linkedin_username:  yourAccount
 # zhihu_username: WVincen
-weibo_username: WVincen
+# weibo_username: WVincen
 
 
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "Fat people have no future, either thin or die..."
+sidebar-about-description: "明天要做更好的自己"
 sidebar-avatar: img/avatar/fatpeople.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - visitor   # busuanzi: https://busuanzi.ibruce.info/
@@ -108,15 +108,15 @@ friends: [
 ## Doc:https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 ##
 gitalk:
-  owner:                          # 'GitHub repo owner'
-  admin:                          # 'GitHub repo'
-  repo:                           # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
-  clientID:                       # 'GitHub Application Client ID'
-  clientSecret:                   # 'GitHub Application Client Secret'
+  owner: lz2019hjh                         # 'GitHub repo owner'
+  admin: lz2019hjh                         # 'GitHub repo'
+  repo: lz2019hjh.beta                          # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
+  clientID: 053261cb6e19f25a0368                       # 'GitHub Application Client ID'
+  clientSecret: 010762d01d56d7dd7d007e11ff33e5ba15674c99                  # 'GitHub Application Client Secret'
   perPage: 10                     # Pagination size, with maximum 100.
   pagerDirection: last            # Comment sorting direction, available values are last and first.
   createIssueManually: false      # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true
-  language: en                    # Localization language key, en, zh-CN and zh-TW are currently available.
+  language: zh-cn                    # Localization language key, en, zh-CN and zh-TW are currently available.
   maxCommentHeight: 250           # An optional number to limit comments' max height, over which comments will be folded.Default 250.
 
 ## Gitment Settings
@@ -138,11 +138,11 @@ gitalk:
 
 # Analytics settings
 
-## Google Analytics
-ga_track_id: UA-xxxxxx-xx   # Format: UA-xxxxxx-xx
+# ## Google Analytics
+# ga_track_id: UA-xxxxxx-xx   # Format: UA-xxxxxx-xx
 
-## Baidu Analytics
-ba_track_id: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ## Baidu Analytics
+# ba_track_id: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Sitemap
 sitemap:
@@ -302,5 +302,5 @@ gitter:
 ##
 deploy:
   type: git
-  repo: https://github.com/<yourAccount>/<repo> # or https://gitee.com/<yourAccount>/<repo>
-  branch: <your-branch>
+  repo: https://gitee.com/lz2019hjh/lz2019hjh
+  branch: blog
