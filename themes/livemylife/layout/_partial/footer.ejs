@@ -15,6 +15,9 @@
             </li>
           <% } %>
 
+          <% if (page.mathjax){ %>
+            <%- partial('mathjax') %>
+          <% } %>
           <% if (config.github_username) { %>
             <li>
               <a target="_blank" href="https://github.com/<%= config.github_username %>">
