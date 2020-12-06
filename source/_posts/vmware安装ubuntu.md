@@ -5,6 +5,8 @@ date: 2020-12-05 17:27:36
 subtitle: ubuntu安装
 header-img: 
 tags:
+- vmware
+- ubuntu
 categories:
 ---
 

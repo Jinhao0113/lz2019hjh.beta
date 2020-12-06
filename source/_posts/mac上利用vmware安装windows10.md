@@ -4,7 +4,9 @@ catalog: true
 date: 2020-12-05 17:27:38
 subtitle: 解决双系统与虚拟机之间的决定
 header-img: /img/header_img/post-bg-hacker.jpg
-tags: - 虚拟机 - windows10
+tags: 
+- 虚拟机
+- windows10
 categories:
 ---
 
