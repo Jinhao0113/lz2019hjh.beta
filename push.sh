@@ -1,5 +1,5 @@
 hexo clean
-hexo d
+hexo d -g
 git rm -r --cache ./*
 git add ./*
 git commit -m "$1"
