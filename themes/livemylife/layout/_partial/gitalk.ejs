@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<script src="https://priesttomb.github.io/js/md5.min.js"></script>
+<script type="text/javascript">
+    new Gitalk({
+        clientID: 'cc845304a60df4b5870a',
+        clientSecret: '0c0887d8f8a21432b1405370a653c61edcbe876d',
+        repo: 'lz2019hjh.beta',
+        owner: 'lz2019hjh',
+        admin: 'lz2019hjh',
+        id: md5(location.pathname),
+        distractionFreeMode: true
+    }).render('gitalk-container')
+</script>

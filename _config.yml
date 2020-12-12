@@ -111,8 +111,8 @@ gitalk:
   owner: lz2019hjh                         # 'GitHub repo owner'
   admin: lz2019hjh                         # 'GitHub repo'
   repo: lz2019hjh.beta                          # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
-  clientID: 053261cb6e19f25a0368                       # 'GitHub Application Client ID'
-  clientSecret: 010762d01d56d7dd7d007e11ff33e5ba15674c99                  # 'GitHub Application Client Secret'
+  clientID: cc845304a60df4b5870a                       # 'GitHub Application Client ID'
+  clientSecret: 0c0887d8f8a21432b1405370a653c61edcbe876d                  # 'GitHub Application Client Secret'
   perPage: 10                     # Pagination size, with maximum 100.
   pagerDirection: last            # Comment sorting direction, available values are last and first.
   createIssueManually: false      # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true
@@ -303,4 +303,9 @@ gitter:
 deploy:
   type: git
   repo: https://gitee.com/lz2019hjh/lz2019hjh
+  branch: blog
+
+deploy:
+  type: git
+  repo: https://github.com/lz2019hjh/lz2019hjh.beta
   branch: blog
