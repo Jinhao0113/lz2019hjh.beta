@@ -305,7 +305,7 @@ deploy:
   repo: https://gitee.com/lz2019hjh/lz2019hjh
   branch: blog
 
-deploy:
-  type: git
-  repo: https://github.com/lz2019hjh/lz2019hjh.beta
-  branch: blog
+# deploy:
+#   type: git
+#   repo: https://github.com/lz2019hjh/lz2019hjh.beta
+#   branch: blog
